@@ -1,47 +1,6 @@
 import keyboard
 import time
 
-# def helloWorld(message="Hello World"):
-#     print(message)
-# helloWorld()
-#
-# f = open('test_1.txt', 'w')
-
-# f = open('test_1.txt', 'w')  # w overrides all file
-#
-# f.write('Hi how are you?')
-#
-# f.close()
-#
-# f = open('test_1.txt')
-#
-# print(f.read())
-#
-# f.close()
-
-# with open('test_1.txt') as f:
-#     print(f.read())
-
-# def my_list():
-#     with open('shopping_list.txt', 'a') as file:
-#         item = input('Enter Item: ')
-#         file.write(item + '\n')
-#
-#
-# my_list()
-#
-#
-# # my trial
-# def func(bye):
-#     print(bye)
-#
-#
-# a = bool
-# a = 2
-
-
-# keyboard.on_press_key('', lambda _: , True)
-
 f = open('shopping_list.txt', 'a+')
 d = open('shopping_list.txt', 'r')
 shopping_list = []
